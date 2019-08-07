@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        
+        <link rel="stylesheet" href="master.css">
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+        
+    </head>
+    <body>
+        
+        <div class="Pt">
+            <div class="Pt-page Pt-page--one is-current js-page">
+                <h1 class="Pt-pageTitle">
+                    Page transitions with GSAP
+                </h1>
+            </div>
+            <div class="Pt-page Pt-page--two js-page">
+                <h1 class="Pt-pageTitle">
+                    Based on Codrops
+                </h1>
+            </div>
+
+            <button class="Pt-btn js-btn" data-out="moveToRight" data-in="scaleUp">
+                Move to Right / Scale Up
+            </button>
+
+            <button class="Pt-btn js-btn" data-out="scaleDown" data-in="moveFromRight">
+                Scale down / Move from right
+            </button>
+        </div>
+        <script src="custom.js"></script>
+    </body>
+</html>
